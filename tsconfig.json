@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "strict": false, // Consider setting this to true for stricter type checking
+    "allowJs": true // Allows JavaScript files to be part of your project
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
